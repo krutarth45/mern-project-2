@@ -1,7 +1,7 @@
 import React from 'react'
 import UserList from '../components/UserList'
 
-const User = () => {
+const Users = () => {
   const USERS = [
     {
       id: 'u1',
@@ -14,4 +14,4 @@ const User = () => {
   return <UserList items={USERS} />
 }
 
-export default User
+export default Users

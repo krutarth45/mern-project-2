@@ -5,7 +5,7 @@ import NavLinks from './NavLinks'
 
 import './MainNavigation.css'
 import SideDrawer from './SideDrawer'
-const MainNavigation = () => {
+const MainNavigation = (props) => {
   return (
     <React.Fragment>
       <SideDrawer>
