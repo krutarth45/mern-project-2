@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../../shared/components/UIElements/Card'
 import './PlaceItem.css'
 
-const PlaceItem = () => {
+const PlaceItem = (props) => {
   return (
     <li className="place-item">
       <Card className="place-item__content">
